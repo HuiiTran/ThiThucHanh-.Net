@@ -1,0 +1,83 @@
+﻿@using X.PagedList.Mvc.Core;
+@using ThiThucHanh.Models;
+@model X.PagedList.IPagedList<TKhachHang>;
+
+@{
+    ViewData["Title"] = "DanhSachNguoiDung";
+    Layout = "~/Areas/Admin/Views/Share/_Layout.cshtml";
+}
+
+<h1>DanhSachNguoiDung</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                TenKhachHang
+            </th>
+            <th>
+                NgaySinh
+            </th>
+            <th>
+                 SoDienThoai
+            </th>
+            <th>
+                DiaChi)
+            </th>
+            <th>
+                LoaiKhachHang
+            </th>
+            <th>
+                 AnhDaiDien
+            </th>
+            <th>
+                 GhiChu
+            </th>
+            <th>
+                 UsernameNavigation
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenKhachHang)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgaySinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SoDienThoai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiaChi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoaiKhachHang)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AnhDaiDien)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GhiChu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UsernameNavigation.Username)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MaKhanhHang">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.MaKhanhHang">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaKhanhHang">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<div class="product_pagination">
+    @Html.PagedListPager(Model, page => Url.Action("DanhMucSanPham", new { page = page }))
+</div>

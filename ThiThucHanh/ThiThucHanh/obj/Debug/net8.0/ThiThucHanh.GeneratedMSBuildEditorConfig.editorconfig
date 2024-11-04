@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\ThiTHucHanh\git\ThiThucHanh-.Net\ThiThucHanh\ThiThucHanh
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/ThiTHucHanh/git/ThiThucHanh-.Net/ThiThucHanh/ThiThucHanh/Areas/Admin/Views/HomeAdmin/ChiTietNguoiDung.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXENoaVRpZXROZ3VvaUR1bmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ThiTHucHanh/git/ThiThucHanh-.Net/ThiThucHanh/ThiThucHanh/Areas/Admin/Views/HomeAdmin/ChiTietSanPham.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXENoaVRpZXRTYW5QaGFtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,12 +38,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERhbmhNdWNTYW5QaGFtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ThiTHucHanh/git/ThiThucHanh-.Net/ThiThucHanh/ThiThucHanh/Areas/Admin/Views/HomeAdmin/DanhSachNguoiDung.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERhbmhTYWNoTmd1b2lEdW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ThiTHucHanh/git/ThiThucHanh-.Net/ThiThucHanh/ThiThucHanh/Areas/Admin/Views/HomeAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ThiTHucHanh/git/ThiThucHanh-.Net/ThiThucHanh/ThiThucHanh/Areas/Admin/Views/HomeAdmin/SuaNguoiDung.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFN1YU5ndW9pRHVuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ThiTHucHanh/git/ThiThucHanh-.Net/ThiThucHanh/ThiThucHanh/Areas/Admin/Views/HomeAdmin/SuaSanPham.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFN1YVNhblBoYW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ThiTHucHanh/git/ThiThucHanh-.Net/ThiThucHanh/ThiThucHanh/Areas/Admin/Views/HomeAdmin/ThemNguoiDungMoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRoZW1OZ3VvaUR1bmdNb2kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ThiTHucHanh/git/ThiThucHanh-.Net/ThiThucHanh/ThiThucHanh/Areas/Admin/Views/HomeAdmin/ThemSanPhamMoi.cshtml]

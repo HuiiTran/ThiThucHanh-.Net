@@ -2,7 +2,7 @@
 
 @{
     ViewData["Title"] = "ChiTietSanPham";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_LayoutChiTietSanPham.cshtml";
 }
 
 
@@ -14,13 +14,13 @@
                 <div class="product__details__pic">
                     <div class="product__details__pic__item">
                         <img class="product__details__pic__item--large"
-                             src="@Url.Content("../Images/ProductImages" + Model.AnhDaiDien)" alt="">
+                             src="@Url.Content("../Images/ProductImages/" + Model.AnhDaiDien)" alt="">
                     </div>
                     <div class="product__details__pic__slider owl-carousel">
                         @foreach (var image in ViewBag.anhSanPham)
                         {
-                            <img data-imgbigurl="@Url.Content("../Images/ProductImages" + image.TenFileAnh)"
-                                 src="@Url.Content("../Images/ProductImages" + image.TenFileAnh)" alt="">
+                            <img data-imgbigurl="@Url.Content("../Images/ProductImages/" + image.TenFileAnh)"
+                                 src="@Url.Content("../Images/ProductImages/" + image.TenFileAnh)" alt="">
                         }
 
 

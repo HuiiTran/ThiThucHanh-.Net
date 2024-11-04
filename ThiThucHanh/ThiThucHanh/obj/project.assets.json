@@ -8115,11 +8115,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ThiTHucHanh\\ThiThucHanh\\ThiThucHanh\\ThiThucHanh.csproj",
+      "projectUniqueName": "D:\\ThiTHucHanh\\git\\ThiThucHanh-.Net\\ThiThucHanh\\ThiThucHanh\\ThiThucHanh.csproj",
       "projectName": "ThiThucHanh",
-      "projectPath": "D:\\ThiTHucHanh\\ThiThucHanh\\ThiThucHanh\\ThiThucHanh.csproj",
+      "projectPath": "D:\\ThiTHucHanh\\git\\ThiThucHanh-.Net\\ThiThucHanh\\ThiThucHanh\\ThiThucHanh.csproj",
       "packagesPath": "C:\\Users\\huylo\\.nuget\\packages\\",
-      "outputPath": "D:\\ThiTHucHanh\\ThiThucHanh\\ThiThucHanh\\obj\\",
+      "outputPath": "D:\\ThiTHucHanh\\git\\ThiThucHanh-.Net\\ThiThucHanh\\ThiThucHanh\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\huylo\\AppData\\Roaming\\NuGet\\NuGet.Config",
